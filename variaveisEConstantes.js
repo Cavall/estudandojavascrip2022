@@ -12,3 +12,8 @@ var a = 3; //foi possivel redeclarar a variavel a com var
 b = 4;
 
 console.log(a, b);
+
+//constante nao pode ser redeclarada
+const d = 50;
+//d = 70; nao pode ser modificada
+console.log(d);
