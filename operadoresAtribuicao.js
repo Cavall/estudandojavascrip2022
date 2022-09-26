@@ -19,4 +19,4 @@ x %= x;
 console.log('x = ', x);
 
 
-console.log(`Existem outros operadores de atribuicao vide tabela mdn`)
+console.log(`Existem outros operadores de atribuicao: vide tabela mdn`)
