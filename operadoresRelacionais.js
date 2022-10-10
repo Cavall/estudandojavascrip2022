@@ -26,3 +26,5 @@ console.log('11)', data1 == data2) //comparamos os enderecos das memorias...vai 
 // Mas se compararmos os atributos do objeto o que acontece?
 console.log("12", data1.getTime == data2.getTime); //os dados tem mesmo tipo e mesmo valor ...vai dar true
 console.log("13", data1.getTime === data2.getTime); //os dados tem mesmo tipo e mesmo valor ...vai dar true
+
+console.log(`Aconselha-se usar === e !== para evitarmos problemas com os tipos`)
