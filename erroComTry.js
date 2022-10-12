@@ -1,5 +1,7 @@
 function tratarErroELancar (erro) {
     throw new Error ('Aconteceu um erro que sera verificado...')
+    // pode lancar so um numero se quisser
+    // pode lancar uma string, um objeto, true..quasse tudp
 }
 
 
@@ -10,7 +12,9 @@ function imprimiurMaiusculo (objeto){
     } catch (e ){
         tratarErroELancar(e);
     }
-
+    finally {
+        console.log("Estou no bloco finally...final")
+    }
 }
 
 const obj1 = {nome: 'Antonio'};
