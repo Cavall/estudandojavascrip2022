@@ -1,5 +1,16 @@
+function tratarErroELancar (erro) {
+    throw new Error ('Aconteceu um erro que sera verificado...')
+}
+
+
+
 function imprimiurMaiusculo (objeto){
+    try{
     console.log(objeto.nome.toUpperCase());
+    } catch (e ){
+        tratarErroELancar(e);
+    }
+
 }
 
 const obj1 = {nome: 'Antonio'};
